@@ -3,54 +3,128 @@
 <head>
     <title> My Page </title>
     <style>
-        body {
-            background-color: powderblue;
-        }
-        h1 {
-            color: blue;
-        }
-        p1 {
-            color: purple;
-        }
         .topnav {
-            background-color: #333;
             overflow: hidden;
+            background-color: #737373;
         }
         .topnav a {
             float: right;
-            color: #0099ff;
+            color: black;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
             font-size: 17;
         }
         .topnav a:hover {
-            background-color: #00ccff;
+            background-color: orange;
             color: white;
         }
+        body {
+            background-color: lightskyblue;
+            text-align: center;
+        }
+        h1 {
+            color: black;
+            font-size: 120px;
+        }
+        h2 {
+            text-align: center;
+            font-size: 40px;
+        }
+        h3 {
+            font-size: 30px;
+        }
+        p1 {
+            color: black;
+            text-align: center;
+        }
+        .d {
+            font-size: 20px;
+            background: lightcyan;
+            display: inline-block;
+            text-align: center;
+            width: 800px;
+            border: 3px solid #000000;
+            word-wrap: normal;
+        }
+    .scouts {
+        font-size: 20px;
+        background: lightcyan;
+        display: inline-block;
+        text-align: center;
+        width: 800px;
+        border: 3px solid #000000;
+        word-wrap: normal;
+    }
+    .church {
+        font-size: 20px;
+        background: lightcyan;
+        display: inline-block;
+        text-align: center;
+        width: 800px;
+        border: 3px solid #000000;
+        word-wrap: normal;
+    }
+    .g {
+        font-size: 15px;
+        background: lightcyan;
+        display: inline-block;
+        text-align: center;
+        width: 800px;
+        border: 1px solid #000000;
+        word-wrap: normal;
+    }
     </style>
 </head>
 <body>
     
-<div class="topnav">
-  <a href="#about">About</a>
-  <a href="#projects">Projects</a>
-  <a href="#contact">Contact</a>
-  <a class="active" href="#home">Home</a>
-</div>
-    
 <div id="home" class="title-container">
-    <h1>home!</h1>
-    <p>I'm test with GitHub Pages.</p>
+    <div class="topnav">
+      <a href="#contact">Contact</a>
+      <a href="#projects">Projects</a>
+      <a href="#service">Service</a>
+      <a href="#about">About</a>
+      <a class="active" href="#home">Home</a>
+    </div>
+    <h1>Warren Binder</h1>
 </div>
 <div id="about" class="about-container">
-    <h2>about!</h2>
+    <h2>About</h2>
+    <img src="hawaii.png"  width="300" height="350">
+        <p></p>
+        <div class = "d">
+            Hi! My name is Warren. I am a Sophomore at El Camino Community College where I am studying Computer Science. I am planning on transfering to Loyola Marymount University to complete my Degree in Computer Science.
+        </div>
+        
+</div>
+<div id="service" class="projects-container">
+    <h2>Service</h2>
+    <img src="rose-parade.jpg" alt="2019 Rose Parade" width="600" height="400">
+        <p> </p>
+        <div class = "scouts">
+            Outside of school, I am active in Hermosa Beach Boy Scout Troop 860 as an Eagle Scout. Scouting Morals have played a big part in my life, shaping me into who I am today. Being an Eagle Scout gave me the opportunity to be the first Eagle Scout from Hermosa Beach to be a Banner Carrier in Rose Parade. (See Above)
+        </div>
+        <p> </p>
+    <img src="church.jpg"  width="600" height="400">
+        <p> </p>
+        <div class = "church">
+            Outside of school and Scouts, I volunteer in my Church's Confirmation Program as a Peer Leader. As a Peer Leader, I help teens through their 2 year confirmation. The photo above is of me and other Peer Leaders that volunteer at my church.
+        </div>
 </div>
 <div id="projects" class="projects-container">
-    <h3>projects!</h3>
+    <h2>Projects</h2>
+    <p> Besides the idea of developing a Google Glass App, I don't have any personal projects to populate my page with! </p>
+    <h3> Google Glass </h3>
+    <img src="glass.png" alt="Hawaii Vacation" width="200" height="200" class = "center">
+    <p> </p>
+    <div class = "g">
+        Google took a lot of the functionality from the Google Glass with the release of the "Final Update". I plan on developing an application for the Google Glass that will add functionality back to the Google Glass, like Google Maps & Spotify Integration.
+    </div>
+    
 </div>
 <div id="contact" class="contact-container">
-    <h4>contact!</h4>
+    <h2>Contact</h2>
+    <p3> email : warrentbinder@gmail.com </p3>
 </div>
 
 </body>
