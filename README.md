@@ -1,7 +1,0 @@
-# warrenbinder.github.io
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm test with GitHub Pages.</p>
-</body>
-</html>
